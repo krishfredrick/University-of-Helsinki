@@ -8,7 +8,7 @@ function Course({course}) {
         course.parts && course.parts.map((part)=>{
             return(
             <>
-            <p>{part.name} {key={id}} <span>{part.exercises}</span> </p>
+            <p key={part.id} >{part.name} <span>{part.exercises}</span> </p>
             </>
             );
         })
@@ -17,5 +17,4 @@ function Course({course}) {
   )
 }
 
-export default Course
-{course}
+export default Course;

@@ -1,4 +1,5 @@
 // import logo from './logo.svg';
+import Course from './components/Course';
 import './App.css';
 
 function App() {
