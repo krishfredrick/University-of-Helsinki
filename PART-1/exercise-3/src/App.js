@@ -15,7 +15,7 @@ const anecdote = [
 const Header = () => {
   return (
     <>
-      <h1> Anecodote of the Day</h1>
+      <h1> Anecdote of the Day</h1>
     </>
   );
 };
@@ -23,7 +23,7 @@ const Anecodote = ({ text, votesCount }) => {
   return (
     <>
       <p> {text}</p>
-      <p>has{votesCount} votes</p>
+      <p>has {votesCount} votes</p>
     </>
   );
 };
